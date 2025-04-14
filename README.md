@@ -15,6 +15,21 @@ This project explores student academic performance using SQL, Python, and Power 
 
 ---
 
+## 📸 Dashboard Preview
+
+### 🧮 Overview Page
+![Overview](visuals/Overview.png)
+
+### 👥 Demographic Factors
+![Demographic Factors](visuals/Demographic_factors.png)
+
+### 🎭 Behavioral Drivers
+![Behavioral Drivers](visuals/Behavioural_drivers.png)
+
+### ⚠️ Risk Factors
+![Risk Factors](visuals/Risk_factors.png)
+
+
 ## 📊 Dashboard Preview
 
 The Power BI dashboard includes:
