@@ -54,6 +54,29 @@ The Power BI dashboard includes:
 
 ---
 
+---
+
+## 📈 EDA & Modeling Visuals
+
+### 📊 GPA Distribution
+![GPA Distribution](visuals/gpa_distribution.png)
+> Most students cluster between GPA 1.5–2.5, with few above 3.0.
+
+### 📉 Absences vs GPA
+![Absences vs GPA](visuals/Number of Absences vs GPA.png)
+> GPA tends to decrease as absences increase — a clear negative correlation.
+>
+### 🧑‍🏫 GPA by Tutoring Status
+![GPA by Tutoring](visuals/GPA by tutoring.png)
+> Students who received tutoring had a higher GPA on average, suggesting a positive academic impact.
+
+
+### 🧠 Confusion Matrix
+![Confusion Matrix](visuals/logistic regression_confuson  matrix.png)
+> The logistic regression model correctly predicts most failing students, with some false positives.
+
+
+
 ## 🧠 Modeling Summary
 
 Model: Logistic Regression, Decision Tree  
@@ -73,7 +96,7 @@ education-analytics-portfolio/
 ├── notebooks/              # Python EDA + modeling (.ipynb)
 ├── powerbi/                # Power BI .pbix file
 │   └── themes/             # JSON theme for KPI visuals
-├── visuals/                # Screenshots of dashboard pages (optional)
+├── visuals/                # Screenshots of dashboard pages and python Visuals (optional)
 ├── reports/                # Final report PDF (exported from Power BI)
 └── README.md               # Project overview
 ```
