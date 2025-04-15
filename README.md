@@ -136,21 +136,3 @@ education-analytics-portfolio/
 
 ---
 
-## 🚀 How to Use
-
-1. Clone the repo or download specific folders
-2. Open `data/Edu_cleaned_data.xlsx` to explore the dataset
-3. Open `powerbi/Student_Performance_Dashboard.pbix` in Power BI Desktop
-4. Run analysis or modeling in the Jupyter notebook (`notebooks/`)
-
----
-
-## ✅ Next Steps
-
-- Add more granular features (exam scores, teacher feedback)
-- Deploy predictive model in an app or automated alert system
-- Extend dashboard with slicers for live student filtering
-
----
-
-**Made with 🔍 curiosity and 📊 data.**
