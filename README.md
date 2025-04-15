@@ -55,25 +55,49 @@ The Power BI dashboard includes:
 ---
 
 ---
+---
 
 ## 📈 EDA & Modeling Visuals
 
 ### 📊 GPA Distribution
 ![GPA Distribution](visuals/gpa_distribution.png)
-> Most students cluster between GPA 1.5–2.5, with few above 3.0.
+> Most students cluster between GPA 1.5–2.5, with fewer high performers above 3.0.
+
+### 📉 Grade Letter Distribution
+![Grade Letter Distribution](visuals/grade_letter_distribution.png)
+> Over half of students received a Grade F, indicating low overall performance.
 
 ### 📉 Absences vs GPA
-![Absences vs GPA](visuals/Number of Absences vs GPA.png)
-> GPA tends to decrease as absences increase — a clear negative correlation.
->
+![Absences vs GPA](visuals/absences_vs_gpa.png)
+> GPA shows a strong negative correlation with absences — more absences, lower GPA.
+
+### ⏱️ Study Time vs GPA
+![Study Time vs GPA](visuals/study_time_vs_gpa.png)
+> Slight positive trend — more study hours correlate with slightly higher GPA.
+
 ### 🧑‍🏫 GPA by Tutoring Status
-![GPA by Tutoring](visuals/GPA by tutoring.png)
-> Students who received tutoring had a higher GPA on average, suggesting a positive academic impact.
+![GPA by Tutoring](visuals/gpa_by_tutoring.png)
+> Students who received tutoring had a higher average GPA, supporting the value of academic support programs.
 
+### 👪 GPA by Parental Support
+![GPA by Parental Support](visuals/avg_gpa_by_parental_support.png)
+> GPA tends to increase with the level of parental support.
 
-### 🧠 Confusion Matrix
-![Confusion Matrix](visuals/logistic regression_confuson  matrix.png)
-> The logistic regression model correctly predicts most failing students, with some false positives.
+### 📦 GPA by Support Level (Boxplot)
+![GPA Boxplot by Support](visuals/gpa_distribution_by_support_level.png)
+> Boxplot confirms the trend — students with “Very High” support tend to outperform others.
+
+---
+
+## 🤖 Model Performance
+
+### 🧠 Confusion Matrix (Logistic Regression)
+![Confusion Matrix - Logistic](visuals/confusion_matrix_logistic.png)
+> Logistic regression predicted failing students well, though with limited sensitivity for top grades.
+
+### 🌳 Confusion Matrix (Decision Tree)
+![Confusion Matrix - Decision Tree](visuals/confusion_matrix_decision_tree.png)
+> Decision tree was slightly less accurate overall, especially on A–C grade classes.
 
 
 
